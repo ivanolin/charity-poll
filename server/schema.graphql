@@ -1,0 +1,11 @@
+type Query {
+  getPollResults(categories: [String!]): [pollResult]
+}
+type Mutation {
+  submitPoll(category: String!, amount: Float!): String
+}
+type pollResult
+{
+  category: String
+  total: Float
+}
