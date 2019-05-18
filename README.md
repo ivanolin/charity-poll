@@ -1,5 +1,5 @@
 # Charity Poll React App
-Put description here!
+High fidelity prototype of a digital "poll based" donation incentive.
 
 ### Setup
 1. Ensure you have a MongoDB service running on port 27017 (default).
