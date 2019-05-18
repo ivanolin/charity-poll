@@ -7,7 +7,6 @@ module.exports = {
         getPollResults: async (_, args) => {
 
             // Aggregate poll results
-            console.log("INITIAL CATEGORIES: "+args.categories);
             var results = await mongoService.getPollResults(args.categories);
 
             // Pull out relevant data

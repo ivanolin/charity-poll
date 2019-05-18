@@ -24,7 +24,7 @@ export default class PollChart extends Component {
         collapsed: false,
         startAngle: -90,
         endAngle: 90,
-        labelSize: 16
+        labelSize: 10
       });
     }
     else {
@@ -42,7 +42,7 @@ export default class PollChart extends Component {
       collapsed: false,
       startAngle: -90,
       endAngle: 90,
-      labelSize: 16
+      labelSize: 10
     });
   }
 
@@ -75,6 +75,7 @@ export default class PollChart extends Component {
               startAngle={data.startAngle}
               endAngle={data.endAngle}
               data={data.sampleData}
+              labelRadius={90}
             />
           );
         }}
